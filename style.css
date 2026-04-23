@@ -1,31 +1,12 @@
-/*link para fonte externa
-*/
-@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
-
-/*arquivo root = resetar elementos da pagina html*/
-
-:root {
-    margin: 0;
-    padding: 0;
-    /*o elemnto box-sizing garante que o elemento padding não aumente o tamanho total do elemento*/
-    box-sizing: border-box;
-
-}
-
-.main-header {
-
-    background-image: url("https://img.odcdn.com.br/wp-content/uploads/2024/05/shutterstock_2261596665-1.jpg");
-    background-repeat: no-repeat;
-    background: rgba(0, 204, 255, 0.289);
-    width: 100%;
-    padding: 10px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.69);
-}
-
-.titulo {
-    color: rgb(51, 197, 197);
-    align-items: center;
-    font-family: "Nova Round";
-    text-shadow: -2px -2px 5px rgba(30, 0, 149, 0.648);
-    text-align: center
-}
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+        
+        body{
+            background-color: #fdfd96;
+            font-family: "Orbitron", Arial, Helvetica, sans-serif;
+        }
+        .cabecalho{
+            background-color: aqua;
+            font-size: 100px;
+            box-sizing: border-box;
+            color: black;
+                }
